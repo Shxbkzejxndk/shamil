@@ -81,10 +81,10 @@ async def start(bot, message):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"{files.file_name}"
+                    f_caption = f"@CLMRG - <b>{file_name}</b>"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 DEPLOY YOURS 🎖', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🏅PLAYit MOVIES🏅', url=https://t.me/joinchat/GsN4C3tW24AxMmE1)
                     ]
                     ]
                 await bot.send_cached_media(
